@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #F2ECBE;
+    width: 100%;
+  }
+  
+  header h1{
+    color: #9A3B3B;
+    letter-spacing: 0.05rem;
+    text-align: center;
+  }
+  
+  figure{
+  display: block;
+  margin-top: 30px;
+  margin:0 auto;
+  }
+  
+  img{
+    border: 15px solid #E2C799;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+   figcaption, figure > p{
+     text-align: center;
+     padding: 7px;
+  }
+  
+  #tribute-info p{
+  padding: 10px;
+  }
+  
+  address{
+    text-decoration:underline;
+    color: #C08261;
+  }
